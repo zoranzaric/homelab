@@ -1,0 +1,7 @@
+[all]
+probe01
+tp01
+
+
+[all:vars]
+ansible_user=root

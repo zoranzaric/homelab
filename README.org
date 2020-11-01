@@ -1,0 +1,6 @@
+#+TITLE: homelab
+
+* Configure
+#+BEGIN_SRC sh
+ansible-playbook playbooks/configure.yml
+#+END_SRC

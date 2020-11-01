@@ -1,0 +1,8 @@
+---
+- name: "Install utils"
+  ansible.builtin.package:
+    name: "{{ item }}"
+    state: present
+  loop:
+    - htop
+    - tmux
